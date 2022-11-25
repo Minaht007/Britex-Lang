@@ -6,22 +6,174 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./sass/">
     <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <!-- ==========HEDER=====HEDER======= -->
 
 <body>
-    <header>
+    <header class="header section container">
         <h1 class="logo">Britlex</h1>
-        <ul>
-            <li class="menu">Home</li>
-            <li class="menu">Skills</li>
-            <li class="menu">About Us</li>
-            <li class="menu">Pricing</li>
-            <li class="menu">Contacts</li>
+        <ul class="menu">
+            <li class="menu__item">
+                <a href="">Home</a>
+            </li>
+            <li class="menu__item">
+                <a href="">Skills</a>
+            </li>
+            <li class="menu__item">
+                <a href="">About Us</a>
+            </li>
+            <li class="menu__item">
+                <a href="">Pricing</a>
+            </li>
+            <li class="menu__item">
+                <a href="">Contacts</a>
+            </li>
         </ul>
+
+        <!-- +++++ КНОПКА++++++ -->
+
+        <button class="inviting-btm" type="button">Let’s Talk</button>
     </header>
+
+    <!-- ================HERO===========HERO========= -->
+    <ul>
+        <li>
+            Learn Any Foreign Language
+        </li>
+        <li>
+            With our teachers who write a program for
+            each student, you will be able to make your
+            first sketch after the first lesson.
+        </li>
+    </ul>
+
+    <button type="button">Get started</button>
+
+    <!-- =======SKILLS==========SKILLS======= -->
+
+    <h2>Skills</h2>
+    <ul>
+        <li>
+            <!-- ====FOR MOBILE==== -->
+            <picture>
+                <source media="(max-width=479px)"
+                    srcset="./image/two bro/Two bro-1x.jpg 1x, ./image/two bro/Two bro-2x.jpg 2x" />
+                <!-- ======FOR TABLER====== -->
+                <source media="(min-width=480px)"
+                    srcset="./image/two bro/Two bro-1x.jpg 1x, ./image/two bro/Two bro-2x.jpg 2x" />
+                <!-- ====FOR DESK-TOP===== -->
+                <source media="(max-width=479px)"
+                    srcset="./image/two bro/Two bro-1x.jpg 1x, ./image/two bro/Two bro-3x.jpg 3x" />
+                <img src=" ./image/two bro/Two bro-1x.jpg" alt="read the book">
+            </picture>
+        </li>
+        <li>
+            <picture>
+                <!-- ====FOR MOBILE====== -->
+                <source media="(max-width: 479px )"
+                    srcset="./image/type-writing/Typewriter-1x.jpg 1x, ./image/type-writing/Typewriter-2x.jpg 2x">
+                <!-- ======FOR TABLER====== -->
+                <source media="(min-width: 479px )"
+                    srcset="./image/type-writing/Typewriter-1x.jpg 1x, ./image/type-writing/Typewriter-2x.jpg 2x">
+                <!-- ====FOR DESK-TOP===== -->
+                <source media="(min-width: 1199px )"
+                    srcset="./image/type-writing/Typewriter-1x.jpg 1x, ./image/type-writing/Typewriter-3x.jpg 3x">
+                <img src="./image/type-writing/Typewriter-1x.jpg" alt="type-mashina">
+
+            </picture>
+        </li>
+        <li>
+            <picture>
+                <!-- ====FOR MOBILE====== -->
+                <source media="(max-width: 479px )"
+                    srcset="./image/book-read/book-read-1x.jpg 1x, ./image/book-read/book-read-2x.jpg 2x">
+                <!-- ======FOR TABLER====== -->
+                <source media="(min-width: 479px )"
+                    srcset="./image/book-read/book-read-1x.jpg 1x, ./image/book-read/book-read-2x.jpg 2x">
+                <!-- ====FOR DESK-TOP===== -->
+                <source media="(min-width: 1199px )"
+                    srcset="./image/book-read/book-read-1x.jpg 1x, ./image/book-read/book-read-3x.jpg 3x">
+                <img src="./image/book-read/book-read-1x.jpg" alt="read the books">
+            </picture>
+
+        </li>
+        <li>
+            <picture>
+                <!-- ====FOR MOBILE====== -->
+                <source media="(max-width: 479px )"
+                    srcset="./image/lissening/audio-1x.jpg 1x, ./image/lissening/audio-2x.jpg 2x">
+                <!-- ======FOR TABLER====== -->
+                <source media="(min-width: 479px )"
+                    srcset="./image/lissening/audio-1x.jpg 1x, ./image/lissening/audio-2x.jpg 2x">
+                <!-- ====FOR DESK-TOP===== -->
+                <source media="(min-width: 1199px )"
+                    srcset="./image/lissening/audio-1x.jpg 1x, ./image/lissening/audio-2x.jpg 3x">
+                <img src="./image/lissening/audio-1x.jpg" alt="read the books">
+            </picture>
+
+        </li>
+    </ul>
+
+
+    <!-- ==========About Us======== -->
+
+    <h2>About Us</h2>
+    <p>The model offers a framework for discussing problems related to the user's experience, as well as possible ways
+        and
+        means of solving them. Application development begins at the top level (strategy), where the future software
+        product is
+        described quite abstractly from the point of view of the expectations of both users and the customer.</p>
+
+    <!-- =====PRICING=======PRICING====== -->
+    <h2>Pricing</h2>
+    <ul>
+        <li>
+            <picture>
+                <!-- ====FOR MOBILE====== -->
+                <source media="(max-width: 479px )"
+                    srcset="./image/Pricing/student/student-1x.jpg 1x,./image/Pricing/student/student-2x.jpg 2x">
+                <!-- ======FOR TABLER====== -->
+                <source media="(min-width: 479px )"
+                    srcset="./image/Pricing/student/student-1x.jpg 1x,./image/Pricing/student/student-2x.jpg 2x">
+                <!-- ====FOR DESK-TOP===== -->
+                <source media="(min-width: 1199px )"
+                    srcset="./image/Pricing/student/student-1x.jpg 1x,./image/Pricing/student/student-3x.jpg 3x">
+                <img src="./image/Pricing/student/student-1x.jpg" alt="student is studies">
+            </picture>
+        </li>
+        <li>
+            <picture>
+                <!-- ====FOR MOBILE====== -->
+                <source media="(max-width: 479px )"
+                    srcset="./image/Pricing/lessons/lesson-1x.jpg 1x, ./image/Pricing/lessons/lesson-2x.jpg 2x">
+                <!-- ======FOR TABLER====== -->
+                <source media="(min-width: 479px )"
+                    srcset="./image/Pricing/lessons/lesson-1x.jpg 1x, ./image/Pricing/lessons/lesson-2x.jpg 2x">
+                <!-- ====FOR DESK-TOP===== -->
+                <source media="(min-width: 1199px )"
+                    srcset="./image/Pricing/lessons/lesson-1x.jpg 1x, ./image/Pricing/lessons/lesson-2x.jpg 2x">
+                <img src="./image/Pricing/lessons/lesson-1x.jpg" alt="student in lessons">
+            </picture>
+        </li>
+        <li>
+            <picture>
+                <!-- ====FOR MOBILE====== -->
+                <source media="(max-width: 479px )"
+                    srcset="./image/Pricing/webinar/webinar-1x.jpg 1x, ./image/Pricing/webinar/webinar-2x.jpg 2x">
+                <!-- ======FOR TABLER====== -->
+                <source media="(min-width: 479px )"
+                    srcset="./image/Pricing/webinar/webinar-1x.jpg 1x, ./image/Pricing/webinar/webinar-2x.jpg 2x">
+                <!-- ====FOR DESK-TOP===== -->
+                <source media="(min-width: 1199px )"
+                    srcset="./image/Pricing/webinar/webinar-1x.jpg 1x, ./image/Pricing/webinar/webinar-3x.jpg 3x">
+                <img src="./image/Pricing/webinar/webinar-1x.jpg" alt="student in webinar">
+            </picture>
+        </li>
+    </ul>
+
 </body>
 
 </html>
