@@ -1,6 +1,16 @@
 @import "./root/variables";
 
 .slogan {
+  margin-top: 63px;
+  width: 1338px;
+  height: 548px;
+  background-image: url(../image/hero-image/learning-languages-1x.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 131px;
+}
+
+.slogan__title {
   display: block;
   width: 386px;
   font-family: "Poppins";
