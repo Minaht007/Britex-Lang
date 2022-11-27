@@ -1,0 +1,66 @@
+@import "./root/variables";
+
+.header {
+  // position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-top: 55px;
+}
+
+.logo {
+  display: block;
+}
+.logoF {
+  // position: relative;
+  color: $base-color;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: $manu-color;
+}
+
+.menu__item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.menu__item:first-child {
+  margin-left: 236px;
+}
+.menu__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.menu__link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+
+  color: $menu-color;
+}
+
+.inviting-btm {
+  display: block;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 56px;
+  padding-right: 56px;
+  margin-left: 121px;
+  // margin-top: 55px;
+
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $title-color;
+}

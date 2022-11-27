@@ -24,26 +24,26 @@ section {
     padding-right: 131px;
 }
 
-/* ======HEADER===== */
-/* .header {
+/* ======HEADER=====  */
+ .header {
     display: flex;
 }
 .menu {
     display: flex;
     flex-direction: row;
     font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.5;
-        color: #263238;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #263238;
     }
 .menu__item:first-child {
 padding-left: 236px;
 }
 .menu__item:not(:last-child) {
     padding-right: 50px;
-} */
+}
 
 .inviting-btm {
     display: block;

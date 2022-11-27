@@ -1,0 +1,17 @@
+@import "./root/variables";
+
+.slogan {
+  display: block;
+  width: 386px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 80px;
+  color: $title-color;
+}
+
+.slogan__referens {
+  display: block;
+  width: 360px;
+}
