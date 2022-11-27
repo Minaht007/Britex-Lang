@@ -18,7 +18,7 @@ p {
 }
 
 section {
-  width: 100%;
+  width: 1338px;
 }
 
 .container {
@@ -65,7 +65,7 @@ p {
 }
 
 section {
-  width: 100%;
+  width: 1338px;
 }
 
 .container {
@@ -183,7 +183,7 @@ p {
 }
 
 section {
-  width: 100%;
+  width: 1338px;
 }
 
 .container {
@@ -233,5 +233,28 @@ body {
 
 .slogan__referens {
   display: block;
-  width: 360px;
+  width: 540px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #8f95a5;
+  margin-top: 40px;
+}
+
+.get-start-btm {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  width: 426px;
+  height: 100px;
+  margin-top: 60px;
+  background: #263238;
+  border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */
