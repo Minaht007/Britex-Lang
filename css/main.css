@@ -17,10 +17,6 @@ p {
   padding: 0;
 }
 
-section {
-  width: 1338px;
-}
-
 .container {
   padding-left: 131px;
   padding-right: 131px;
@@ -62,10 +58,6 @@ p {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
-}
-
-section {
-  width: 1338px;
 }
 
 .container {
@@ -182,10 +174,6 @@ p {
   padding: 0;
 }
 
-section {
-  width: 1338px;
-}
-
 .container {
   padding-left: 131px;
   padding-right: 131px;
@@ -210,51 +198,48 @@ body {
   line-height: 1.5;
 }
 
-.slogan {
-  margin-top: 63px;
-  width: 1338px;
-  height: 548px;
-  background-image: url(../image/hero-image/learning-languages-1x.jpg);
-  background-repeat: no-repeat;
-  background-position: right;
-  padding-right: 131px;
-}
-
-.slogan__title {
-  display: block;
-  width: 386px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 64px;
-  line-height: 80px;
-  color: #000000;
-}
-
-.slogan__referens {
-  display: block;
-  width: 540px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.5;
-  color: #8f95a5;
-  margin-top: 40px;
-}
-
-.get-start-btm {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  width: 426px;
-  height: 100px;
-  margin-top: 60px;
-  background: #263238;
-  border-radius: 10px;
+@media screen and (min-width: 1200px) {
+  .hero {
+    margin-top: 63px;
+    background-image: url(../image/hero-image/learning-languages-1x.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 654px;
+  }
+  .slogan__title {
+    display: block;
+    width: 100%;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    color: #000000;
+  }
+  .slogan__referens {
+    display: block;
+    width: 540px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #8f95a5;
+    margin-top: 40px;
+  }
+  .get-start-btm {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    width: 426px;
+    height: 100px;
+    margin-top: 60px;
+    background: #263238;
+    border-radius: 10px;
+  }
 }/*# sourceMappingURL=main.css.map */
