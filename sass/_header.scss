@@ -1,7 +1,6 @@
 @import "./root/variables";
 
 .header {
-  // position: relative;
   display: flex;
   flex-direction: row;
   margin-top: 55px;
@@ -18,13 +17,6 @@
 .menu {
   display: flex;
   flex-direction: row;
-
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.5;
-  color: $menu-color;
 }
 
 .menu__item {
@@ -44,19 +36,18 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
-
   color: $menu-color;
 }
 
 .inviting-btm {
-  display: block;
-
-  padding-top: 20px;
-  padding-bottom: 20px;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 56px;
   padding-right: 56px;
-  margin-left: 121px;
-  // margin-top: 55px;
+  border: 2px solid #263238;
+  border-radius: 10px;
+  // margin-left: 121px;
 
   font-size: 20px;
   line-height: 1.5;
